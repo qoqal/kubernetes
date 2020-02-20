@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: client-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      component: web 
+  template:
+    metadata:
+      label:
+        component: web
+    spec:
+      containers:
+      - name: client
+        image: qosha /multi-client
