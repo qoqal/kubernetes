@@ -1,5 +1,4 @@
 apiVersion: apps/v1
-apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: client-deployment
@@ -10,9 +9,11 @@ spec:
       component: web 
   template:
     metadata:
-      label:
+      labels:
         component: web
     spec:
       containers:
       - name: client
-        image: qosha /multi-client
+        image: qosha/multi-client
+        ports:
+          - containerPort: 3000
