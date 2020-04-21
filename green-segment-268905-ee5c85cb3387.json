@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "green-segment-268905",
+  "private_key_id": "ee5c85cb338757189f25df53a1fd99b6003576cd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCKoFoapSlhBuxw\n3JvLN2zIOK8l+jeFkIPlxoalHTXXHlzs+ah+JuVvZITKTwu9yRih9CGeLDdrMt0i\naMJ5OXOFAmGwsoWXU5Xtbj1FncleCLHc6f+nrQS+oAiMzOZvHuCF9qe8+I05ywio\nJS2BH+/3M8lTQV4U3kxaFFtqKMEKaMsnOnkQX9QuT1YB9GyZQfVJddxqg/Hu5826\nvQeykM3S8gvnVcmOLV2vNRgU1tkB+jYxYSLremMPl6js3egHr/wVdja7J/tuWtmy\nPygJCN9S3f4v+CVTewss1Zd4erz7BDvI6+yyYOA/A2+jpv5TpTannAGIgd9VWUed\nP8CPvNfZAgMBAAECggEADWQnFXAt+p2mGn2dHnjjV8YYrp+osbd/nk3atOQzpBez\n8f++AI22V9fgd1XtHu9oTetyPJWDNvufXqhlsjspXHMZ8m0/DXAOyXRUPpTa88FS\n7ocQ4hGLJfT5+SFUA0OlfHC9dw+Vk5HNlhydSYjHGrH/I+fqdDPzMTfKiuCWoUV7\ngSudlnAnBsiI95S0kTi/QvJJ0kA6Lcaw9vwoe6z52G+Ef0GtmD5HW+K4r70lR5EE\noW2e9Hc+4C8fN6sZA2WOqvALpBCkobxNXjTxkqSvcxf9hUmcT6NdKZ62A3fr4Tyv\ntU9zY+OiSrI/MRovQ6x1oaiUa6sbRx8X0KsAvCVK3wKBgQDCz1iAHVRmMN9ZO2tP\nITB1iFqfrW2kLCJim43w8YS/xqKSEOWR9rkWwvdFyv+RYKxZ4RYjO2xUURWtHMSP\nPU2LFk5pwy42VFbc3rQXDtk2BUoNNYKglnnNGDF71pjQXNgqj/z4KeZaqNHphScw\nrOALkRsIf7T/HrwYPy5/nGqI5wKBgQC2K0oPdQh/2HSPZTy3hEtpijKZWe1GyQmU\nKj0N7puXiZp0oxwl2z7IDvr55DBm+UNI+8ompTCAu3K3Rh17+kyvBUJzxFHCeKyv\nx60D7s5i54Ynh7a2ZEI9VUxXOrCcWciihrUkc2ILGmTbQjXJ7Gn0/6X56D9VwSgM\nXYrWmFnBPwKBgQC/SZo9Mo+NSLAHjrDwIkbTIfDamhDvA+c/rD7UOFOBfCpmAvFp\nQjq8fvUPMyWAOs0B9GModVEJ+hSux3C6thdOW7jjYSQfdPFWL9fmTE49HTR5g/Gg\nfiFbokX0s+OZtZENOhXMGFh47QwxoO26fgYBVZqV3dB8MlG//UpLQ+vYQQKBgB4e\nwjwUCbe5vmwHPSbKxP1KUFtytvzBOMg6w6WOEkPYCKXIYlsQCS1i7LRsumQMSsfC\negYxwfdHBwyulylslUlLAVXK3Anfkg3uYfkIfy9zQIdAtUErCpjBhcHWfmUbo0Tc\nKQ9B1LApSQvHwsUERfCwZG0RrYcsTMbeoJoizpRZAoGAVwTEQvk8zPggkapCtS/s\n/XnASj/kMCrz3VGfRbLJzp+d3rCB6i3ff8+a/RpyYu9GYUOB0cOaDX0vxLrTMliK\ns/c3V0JrUuUnRWiLzuaUryn/zeUvhZoFNC8v2+h9QcKbsXSoBjhJqED7LbfTSl5Z\npfDMl3IDsUnscS0WcS2NrtY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "travis-deployer@green-segment-268905.iam.gserviceaccount.com",
+  "client_id": "103413666834869993878",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/travis-deployer%40green-segment-268905.iam.gserviceaccount.com"
+}
