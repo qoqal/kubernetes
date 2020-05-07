@@ -16,7 +16,7 @@ before_install:
   - gcloud config set compute/zone us-central1-a
   - gcloud container clusters get-credentials kubecl
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker build -t qoqal/react-test ./client/Dockerfile.dev ./client
+  - docker build -t qoqal/react-test -f ./client/Dockerfile.dev ./client
 
 script:
   - docker run qoqal/react-test npm test -- --coverage
