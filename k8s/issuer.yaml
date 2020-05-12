@@ -3,5 +3,12 @@ kind: ClusterIssuer
 metadata:
   name: letsencrypt-prod
 spec:
-  ca:
-    secretName: k8s-gh-com
+  acme:
+    server: https://acme-v02.api.letsencrypt.org/directory
+    email: 'qoqal666@gmail.com'
+    privateKeySecretRef:
+      name: letsencrypt-prod
+    solvers:
+    - http01:
+         ingress:
+           class: nginx
