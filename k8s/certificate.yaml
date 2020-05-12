@@ -7,14 +7,8 @@ spec:
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
+    group: cert-manager.io
   commonName: k8s-gh.com
   dnsNames:
     - k8s-gh.com
     - www.k8s-gh.com
-  acme:
-    config:
-      - http01:
-          ingressClass: nginx
-        domains:
-          - k8s-gh.com
-          - www.k8s-gh.com
