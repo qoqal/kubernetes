@@ -12,10 +12,3 @@ spec:
   dnsNames:
     - k8s-gh.com
     - www.k8s-gh.com
-  acme:
-    config:
-      - http01:
-          ingressClass: nginx
-        domains:
-          - k8s-gh.com
-          - www.k8s-gh.com
